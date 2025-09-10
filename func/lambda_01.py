@@ -9,3 +9,6 @@ def calc(func,a,b):
     return func(a,b)
 
 print(calc(minus,1,2))
+
+print(calc(lambda a,b : a+b,1,2))
+print(calc(lambda a,b : a*b,1,2))
